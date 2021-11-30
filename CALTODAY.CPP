@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int ch;
+int a,b,c;
+printf("\n menu\n1 add\n2 sub\n3 mul\n4 div");
+printf("\n enter the choice");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:
+printf("\n enter the two number");
+scanf("%d%d",&a,&b);
+c=a+b;
+break;
+case 2:
+printf("\n enter the two number");
+scanf("%d%d",&a,&b);
+c=a-b;
+break;
+case 3:
+printf("\n enter the two number");
+scanf("%d%d",&a,&b);
+c=a*b;
+break;
+case 4:
+printf("\n enter the two number");
+scanf("%d%d",&a,&b);
+c=a/b;
+break;
+default:
+printf("\n sorry wrong choice");
+break;
+}
+printf("%d",c);
+getch();
+}

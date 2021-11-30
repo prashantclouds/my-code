@@ -1,0 +1,244 @@
+#include<stdio.h>
+#include<process.h>
+#include<conio.h>
+void main()
+{
+/*
+int rn[3],i;
+clrscr();
+for(i=0;i<5;i++)
+{
+printf("\n enter the roll number of a student");
+scanf("%d",&rn[i]);
+}
+for(i=0;i<5;i++)
+{
+printf("\n your roll number is=%d",rn[i]);
+}
+getch();
+}
+//write a programme to input marks of a student with total percentage and divison
+
+float m[5],tot=0,per;
+int i;
+clrscr();
+for(i=0;i<5;i++)
+{
+printf("\n enter the marks of student");
+scanf("%f",&m[i]);
+}
+for(i=0;i<5;i++)
+{
+printf("\n your marks=%f",m[i]);
+tot=tot+m[i];
+}
+printf("\n your total marks=%f",tot);
+per=tot/5;
+printf("\n your percentage=%f",per);
+if(per>=60)
+{
+printf("\n first division");
+}
+else if(per>=50)
+printf("\n second division");
+else if(per>=40)
+printf("\n third division");
+else
+printf("\n fail");
+getch();
+}
+float f;
+int i,j,m[2][3];
+for(i=0;i<2;i++)//row
+{
+for(j=0;j<3;j++)//column
+{
+printf("\n enter your marks");
+scanf("%f",&m[i][j]);
+}
+}
+for(i=0;i<2;i++)//row
+{
+for(j=0;j<3;j++)//column
+{
+printf("\n your marks=%f",m[i][j]);
+}
+}
+getch();
+}
+//wap to make 3x3 matrix
+int m[3][3],i,j;
+clrscr();
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\n enter elements");
+scanf("%d",&m[i][j]);
+}
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\t%d",m[i][j]);
+}
+printf("\n");
+}
+getch();
+}
+// wap to sum of all the elements of 3x3
+int m[3][3],i,j,sum=0;
+clrscr();
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\n enter the elements");
+scanf("%d",&m[i][j]);
+}
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\t%d",m[i][j]);
+sum=sum+m[i][j]);
+}
+printf("\n");
+}
+printf("\n sum is%d",sum);
+getch();
+}
+//wap to find transpose of n input3x3 matrix
+int m[3][3],i,j;
+clrscr();
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\n enter element");
+scanf("%d",&m[i][j]);
+}
+}
+printf("\n transposed matrix:\n");
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\t%d",m[j][i]);
+}
+printf("\n");
+}
+getch();
+}
+//wap to find sum of rows and column
+int m[3][3],i,j,sumr,sumc;
+clrscr();
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\n enter the elements");
+scanf("%d",&m[i][j]);
+}
+}
+for(i=0;i<3;i++)
+{
+sumr=0;sumc=0;
+for(j=0;j<3;j++)
+{
+printf("%d\t",m[i][j]);
+sumr+=m[i][j];
+sumc+=m[j][i];
+}
+printf("\t sum of row=%d",sumr);
+printf("\t sum  of column=%d\n",sumc);
+}
+getch();
+}
+int m[4][4],i,j,srd=0,sld=0;
+clrscr();
+for(i=0;i<4;i++)
+{
+for(j=0;j<4;j++)
+{
+printf("\n enter the elements");
+scanf("%d",&m[i][j]);
+}
+}
+for(i=0;i<4;i++)
+{
+for(j=0;j<4;j++)
+{
+printf("\t%d",m[i][j]);
+if(i==j)
+sld+=m[i][j];
+else if((i+j)==3)
+srd+=m[i][j];
+}
+printf("\n");
+}
+printf("\n sum of left diagonal=%d",sld);
+printf("\n sum of right diagonal=%d",srd);
+getch();
+}
+int m1[3][3],m2[3][3],m3[3][3],i,j;
+clrscr();
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\n enter the elements");
+scanf("%d",&m[i][j]);
+}
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("\n enter the element");
+scanf("%d",&m[i][j])
+}
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+m3[i][j]=m1[i][j]+m2[i][j];
+}
+}
+for(i=o;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("%d",m1[i][j]);
+}
+printf("\n");
+*/
+int i,n,a[5],j;
+
+char ch;
+clrscr();
+printf("\n enter the elements");
+for(i=0;i<5;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("\n enter the searching number");
+scanf("%d",&n);
+	for(j=0;j<5;j++)
+		{
+	       //	printf("valuemis = %d",a[j]);
+		if(a[j]== n)
+		{
+		   printf("\n number is found");
+
+		break;
+		}
+
+2
+
+}
+getch();
+}
